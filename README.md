@@ -1,6 +1,6 @@
 # Alison Cunningham
 
-Computer Science student (Year 1) at John Abbott College, based in Montreal.
+Computer Science student (Year 1) at John Abbott College, based in Montreal.  
 Interested in simulation systems, software engineering, and structured application development.
 
 ## Technical Skills
