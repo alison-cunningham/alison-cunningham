@@ -1,16 +1,15 @@
-## Hi there 👋
+# Alison Cunningham
 
-<!--
-**alison-cunningham/alison-cunningham** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Computer Science student (Year 1) at John Abbott College, based in Montreal.
+Interested in simulation systems, software engineering, and structured application development.
 
-Here are some ideas to get you started:
+## Technical Skills
+- C#
+- HTML and CSS
+- Object-Oriented Programming
+- Git & GitHub
+- Basic Networking concepts
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Current Focus
+- Building structured C# applications
+- Improving software design principles
