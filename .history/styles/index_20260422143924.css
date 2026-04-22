@@ -22,14 +22,15 @@ header h1{
     display: flex;
     gap: 3rem;
 
-    width: 100%;
     overflow-x: auto;
     white-space:nowrap;
-    justify-content: flex-start;
 
     padding: 0.5rem 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
 
     font-size: 1.3rem;
+    width: 100%
 }
 
 .hover-text{
@@ -59,7 +60,6 @@ header h1{
 }
 
 .home-page-img{
-    display: block;
     width: 15rem;
     border: .2rem solid #e5e7eb;
     border-radius: 50%;
@@ -74,9 +74,7 @@ header h1{
 main{
     display: flex;
     flex-direction: column;
-
     align-items: center;
-    justify-content: center;
 
     gap: 3rem;
     padding: 3rem 1.5rem;

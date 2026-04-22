@@ -59,7 +59,6 @@ header h1{
 }
 
 .home-page-img{
-    display: block;
     width: 15rem;
     border: .2rem solid #e5e7eb;
     border-radius: 50%;
