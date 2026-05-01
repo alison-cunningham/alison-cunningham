@@ -7,17 +7,15 @@
 
 body{
     font-family: 'Radio-Canada';
+    display: grid;
+    place-items: center;
 
     background-color: #f8fafc;
     color: #1e293b;
 
     line-height: 1.6;
     font-size: 1rem;
-
-    margin: 0;
-    overflow-x: hidden;
 }
-
 
 a{
     text-decoration: none;

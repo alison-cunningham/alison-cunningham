@@ -22,16 +22,13 @@ header h1{
     display: flex;
     gap: 3rem;
 
-    width: 90%;
-    max-width: 100%;
-    
+    width: 100%;
     overflow-x: auto;
     white-space:nowrap;
     justify-content: flex-start;
 
-    padding: 0.5rem 3rem;
-    margin-left: 2.5rem;
-    margin-right: 2.5rem;
+    padding: 0.5rem 1rem;
+    margin-left: 2rem;
 
     font-size: 1.3rem;
 }
@@ -101,6 +98,11 @@ main{
     box-shadow: 0 10px 25px rgba(0,0,0,0.05);
 }
 
+@media (max-width: 899px) {
+    .about-me {
+        text-align: center;
+    }
+}
 
 @media (min-width: 900px) {
   main {
@@ -110,10 +112,4 @@ main{
     gap: 4rem;
     width: 100%;
   }
-
-    .nav-bar {
-        justify-content: center;
-        overflow-x: visible;
-    }
-
 }
