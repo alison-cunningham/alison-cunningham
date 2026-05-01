@@ -1,0 +1,21 @@
+@font-face{
+    font-family: 'Radio-Canada';
+    src: url('../assets/fonts/Radio_Canada/RadioCanada-VariableFont_wdth\,wght.ttf')
+}
+
+
+
+body{
+    font-family: 'Radio-Canada';
+    display: grid;
+    place-items: center;
+
+    background-color: #f8fafc;
+    color: #1e293b;
+
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
