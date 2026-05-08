@@ -3,8 +3,6 @@
     src: url('../assets/fonts/Radio_Canada/RadioCanada-VariableFont_wdth\,wght.ttf')
 }
 
-
-
 body{
     font-family: 'Radio-Canada';
 
@@ -17,7 +15,6 @@ body{
     margin: 0;
     overflow-x: hidden;
 }
-
 
 a{
     text-decoration: none;
