@@ -1,15 +1,17 @@
+.main-header{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+
+    font-size: 1.2rem;
+}
+
 .project-header{
     display: grid;
     justify-content: center;
     text-align: center;
 
-    padding: 2rem 1rem 1rem;
-}
-
-header{
-    display: grid;
-    justify-content: center;
-    text-align: center;
+    padding: 1rem .5rem .5rem;
 }
 
 h1{
@@ -106,6 +108,19 @@ img{
 
 summary{
     text-align: center;
+    margin-bottom: 2rem;
+}
+
+.learned{
+    line-height: 2rem;
+    background-color: #e5e7eb;
+    padding: 0.4rem 2.5rem 1rem;
+    margin: 2rem;
+    border-radius: 0.75rem;
+}
+
+.payroll-breakdown{
+    line-height: 1.4rem;
 }
 
 iframe{
