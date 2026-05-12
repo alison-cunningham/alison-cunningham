@@ -104,6 +104,10 @@ img{
     background-color: #34d399;
 }
 
+summary{
+    text-align: center;
+}
+
 iframe{
     width: 100%;
     min-height: 80vh;
