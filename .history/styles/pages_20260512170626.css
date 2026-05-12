@@ -10,25 +10,10 @@ body{
 
 .main-header{
     display: grid;
+    justify-content: center;
     text-align: center;
 
     font-size: 1.2rem;
-}
-
-.main-header h2{
-    font-size: 3rem;
-
-    margin-bottom: 0.5rem;
-
-    color: #0f172a;
-    letter-spacing: -0.05rem;
-}
-
-.main-header p{
-    margin-top: 0;
-
-    font-size: 1.2rem;
-    color: #64748b;
 }
 
 .project-header{
@@ -36,14 +21,11 @@ body{
     justify-content: center;
     text-align: center;
 
+    padding: 1rem .5rem .5rem;
 }
 
-.project-header h1{
+h1{
     margin-bottom: 0;
-
-    font-size: 2.2rem;
-
-    color: #2563eb;
 }
 
 nav{
@@ -83,20 +65,14 @@ nav a:hover{
 
 img{
     display: block;
-    max-width: 100%;
-    margin: 1rem auto;
+    max-width: 90%;
+    margin: 2rem auto;
     border: .3rem solid #e5e7eb;
     border-radius: .75rem;
-
-    transition: transform 0.3s ease;
-}
-
-img:hover{
-    transform: scale(1.09);
 }
 
 .project-description{
-    max-width: 97%;
+    max-width: 90%;
 
     margin: 0 auto 2rem;
     padding: 2rem;
@@ -144,8 +120,8 @@ summary{
 .learned{
     line-height: 2rem;
     background-color: #e5e7eb;
-    padding: 0.3rem 1.5rem 1rem;
-    margin: 0.2rem;
+    padding: 0.4rem 2.5rem 1rem;
+    margin: 2rem;
     border-radius: 0.75rem;
 }
 

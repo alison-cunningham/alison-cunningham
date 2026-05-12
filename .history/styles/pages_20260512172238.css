@@ -41,8 +41,6 @@ body{
 .project-header h1{
     margin-bottom: 0;
 
-    font-size: 2.2rem;
-
     color: #2563eb;
 }
 
@@ -83,16 +81,10 @@ nav a:hover{
 
 img{
     display: block;
-    max-width: 100%;
-    margin: 1rem auto;
+    max-width: 90%;
+    margin: 2rem auto;
     border: .3rem solid #e5e7eb;
     border-radius: .75rem;
-
-    transition: transform 0.3s ease;
-}
-
-img:hover{
-    transform: scale(1.09);
 }
 
 .project-description{
@@ -144,8 +136,8 @@ summary{
 .learned{
     line-height: 2rem;
     background-color: #e5e7eb;
-    padding: 0.3rem 1.5rem 1rem;
-    margin: 0.2rem;
+    padding: 0.4rem 2.5rem 1rem;
+    margin: 2rem;
     border-radius: 0.75rem;
 }
 

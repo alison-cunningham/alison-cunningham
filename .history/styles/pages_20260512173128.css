@@ -41,8 +41,6 @@ body{
 .project-header h1{
     margin-bottom: 0;
 
-    font-size: 2.2rem;
-
     color: #2563eb;
 }
 
@@ -144,7 +142,7 @@ summary{
 .learned{
     line-height: 2rem;
     background-color: #e5e7eb;
-    padding: 0.3rem 1.5rem 1rem;
+    padding: 0.4rem 1.5rem 1rem;
     margin: 0.2rem;
     border-radius: 0.75rem;
 }
