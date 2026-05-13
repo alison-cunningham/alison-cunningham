@@ -38,24 +38,16 @@ main{
 
 @media (min-width: 768px){
     
+    main {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        align-items: center;
+        gap: 4rem;
+    }
+
     .nav-bar {
         justify-content: center;
         overflow-x: visible;
-    }
-
-    main {
-        display: grid;
-        grid-template-columns: auto 2fr;
-        align-items: center;
-        gap: 1.5rem;
-    }
-
-    .about-me{
-        padding: 2.5rem;
-    }
-
-    .home-page-img{
-        width: 18rem;
     }
 
 }
@@ -64,25 +56,14 @@ main{
   
     main {
         display: grid;
-        grid-template-columns: auto 2fr;
+        grid-template-columns: 1fr 2fr;
         align-items: center;
-        gap: 1.5rem;
-
-        padding: 3rem;
+        gap: 4rem;
     }
 
-    .page-header{
-        font-size: 3.5rem;
-        gap: 1rem;
-    }
-
-    .nav-bar{
-        font-size: 1.4rem;
-        gap: 3rem;
-    }
-
-    .about-me{
-        font-size: 1.1rem;
+    .nav-bar {
+        justify-content: center;
+        overflow-x: visible;
     }
 
 }
