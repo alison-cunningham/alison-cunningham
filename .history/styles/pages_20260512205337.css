@@ -92,7 +92,7 @@ img{
 }
 
 img:hover{
-    transform: scale(1.04);
+    transform: scale(1.09);
 }
 
 .project-description{
@@ -161,16 +161,11 @@ iframe{
 
 @media (min-width: 768px){
 
-    .projects-layout{
+    .project-layout{
         display: flex;
         flex-direction: column;
         gap: 1.5rem;
     }
-
-    .project-card{
-        width:100%;
-    }
-
 
 }
 
@@ -178,7 +173,7 @@ iframe{
 
     .projects-layout{
         display: grid;
-        grid-template-columns: 1fr 4fr;
+        grid-template-columns: 16rem 1fr;
         align-items: start;
 
         gap: 2rem;
@@ -199,14 +194,6 @@ iframe{
     nav a{
         width: 100%;
         text-align: left;
-    }
-
-    .project-card{
-        margin-bottom: 4rem;
-        padding: 1rem;
-
-        border: .2rem solid #e5e7eb;
-        border-radius: 1rem;
     }
 
     iframe{

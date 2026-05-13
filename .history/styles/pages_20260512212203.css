@@ -92,7 +92,7 @@ img{
 }
 
 img:hover{
-    transform: scale(1.04);
+    transform: scale(1.09);
 }
 
 .project-description{
@@ -203,7 +203,7 @@ iframe{
 
     .project-card{
         margin-bottom: 4rem;
-        padding: 1rem;
+        padding: 2rem;
 
         border: .2rem solid #e5e7eb;
         border-radius: 1rem;

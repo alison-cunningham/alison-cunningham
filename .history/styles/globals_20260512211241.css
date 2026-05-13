@@ -109,10 +109,3 @@ header h1{
 .hover-text:hover::after {
     width: 100%;
 }
-
-@media (min-width: 768px){
-    .nav-bar{
-        justify-content: center;
-        overflow-x: visible;
-    }
-}

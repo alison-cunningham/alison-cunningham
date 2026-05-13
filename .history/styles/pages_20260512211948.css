@@ -92,7 +92,7 @@ img{
 }
 
 img:hover{
-    transform: scale(1.04);
+    transform: scale(1.09);
 }
 
 .project-description{
@@ -199,14 +199,6 @@ iframe{
     nav a{
         width: 100%;
         text-align: left;
-    }
-
-    .project-card{
-        margin-bottom: 4rem;
-        padding: 1rem;
-
-        border: .2rem solid #e5e7eb;
-        border-radius: 1rem;
     }
 
     iframe{
