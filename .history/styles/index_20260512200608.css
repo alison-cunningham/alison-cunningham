@@ -45,9 +45,9 @@ main{
 
     main {
         display: grid;
-        grid-template-columns: auto 2fr;
+        grid-template-columns: 1fr 2fr;
         align-items: center;
-        gap: 1.5rem;
+        gap: 4rem;
     }
 
     .about-me{
@@ -64,16 +64,14 @@ main{
   
     main {
         display: grid;
-        grid-template-columns: auto 2fr;
+        grid-template-columns: 1fr 2fr;
         align-items: center;
-        gap: 1.5rem;
-
-        padding: 3rem;
+        gap: 5rem;
     }
 
     .page-header{
         font-size: 3.5rem;
-        gap: 1rem;
+        gap: 3rem;
     }
 
     .nav-bar{

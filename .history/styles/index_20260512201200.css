@@ -68,12 +68,12 @@ main{
         align-items: center;
         gap: 1.5rem;
 
-        padding: 3rem;
+        padding: 2rem;
     }
 
     .page-header{
         font-size: 3.5rem;
-        gap: 1rem;
+        gap: 3rem;
     }
 
     .nav-bar{

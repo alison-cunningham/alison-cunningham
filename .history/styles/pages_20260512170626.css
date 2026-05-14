@@ -1,0 +1,136 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 0 auto;
+    padding: 0 1.5rem;
+
+}
+
+.main-header{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+
+    font-size: 1.2rem;
+}
+
+.project-header{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+
+    padding: 1rem .5rem .5rem;
+}
+
+h1{
+    margin-bottom: 0;
+}
+
+nav{
+    width: 100%;
+    margin: 1rem auto;
+    padding: .75rem;
+
+    background-color: #ffffff;
+    border: .2rem solid #e5e7eb;
+    border-radius: 1rem;
+
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+
+}
+
+nav a{
+    
+    color: #60a5fa;
+    padding: .5rem .5rem;
+    border-radius: .75rem;
+
+    font-size: 1.1rem;
+
+    transition: 
+        background-color 0.3s ease,
+        color 0.3s ease,
+        transform 0.3s ease;
+}
+
+nav a:hover{
+    background-color: #34d399;
+    color: white;
+}
+
+img{
+    display: block;
+    max-width: 90%;
+    margin: 2rem auto;
+    border: .3rem solid #e5e7eb;
+    border-radius: .75rem;
+}
+
+.project-description{
+    max-width: 90%;
+
+    margin: 0 auto 2rem;
+    padding: 2rem;
+
+    background-color: #ffffff;
+    border: .2rem solid #e5e7eb;
+    border-radius: .75rem;
+
+    line-height: 1.7;
+}
+
+.project-description ul{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+}
+
+.project-link{
+    display: block;
+    width: fit-content;
+
+    margin: 0 auto 3rem;
+    padding: .75rem;
+    
+    background-color: #60a5fa;
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: .5rem;
+
+    transition: background-color 0.3s ease;
+    transition: transform 0.2s ease;
+}
+
+.project-link:hover{
+    background-color: #34d399;
+}
+
+summary{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.learned{
+    line-height: 2rem;
+    background-color: #e5e7eb;
+    padding: 0.4rem 2.5rem 1rem;
+    margin: 2rem;
+    border-radius: 0.75rem;
+}
+
+.payroll-breakdown{
+    line-height: 1.4rem;
+}
+
+iframe{
+    width: 100%;
+    min-height: 80vh;
+    border: 0;
+}
